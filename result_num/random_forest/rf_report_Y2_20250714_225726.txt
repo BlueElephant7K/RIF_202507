@@ -1,0 +1,43 @@
+RANDOM FOREST STABILITY ANALYSIS REPORT
+Generated: 2025-07-14 22:57:27
+Outcome: Y2
+Iterations: 20
+Models: RandomForest, ExtraTrees, RF_Deeper
+
+BEST MODEL: RF_Deeper
+Performance: 0.6763 ± 0.0223
+OOB Score: 0.7121
+Average Tree Depth: 11.4
+
+TOP 10 STABLE BIOMARKERS:
+ 1. FRMD4A          (100.0%)
+ 2. CD55            (100.0%)
+ 3. GABARAPL1       (100.0%)
+ 4. MARCHF3         (100.0%)
+ 5. CBLL2           (100.0%)
+ 6. MOCOS           (100.0%)
+ 7. TGIF1           (100.0%)
+ 8. LGALS7B         (100.0%)
+ 9. RNU4ATAC18P     (100.0%)
+10. DCTPP1          (100.0%)
+
+STABILITY METRICS:
+High stability genes (≥80%): 242
+Overall performance: Moderate
+
+TOP IMPORTANT FEATURES:
+ 1. MARCHF3         | Stability: 100.0% | Importance: 0.0027
+ 2. MCM4            | Stability: 100.0% | Importance: 0.0024
+ 3. SEMA6A-AS1      | Stability: 100.0% | Importance: 0.0024
+ 4. PLXNA4          | Stability: 100.0% | Importance: 0.0024
+ 5. HROB            | Stability: 100.0% | Importance: 0.0021
+ 6. PLP2            | Stability: 100.0% | Importance: 0.0020
+ 7. MOCOS           | Stability: 100.0% | Importance: 0.0019
+ 8. ENOX1-AS1       | Stability: 100.0% | Importance: 0.0018
+ 9. RNU4ATAC18P     | Stability: 100.0% | Importance: 0.0017
+10. GABARAPL1       | Stability: 100.0% | Importance: 0.0016
+
+MODEL PERFORMANCE RANKING:
+1. RF_Deeper: 0.6433
+2. ExtraTrees: 0.6359
+3. RandomForest: 0.6273

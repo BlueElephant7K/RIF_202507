@@ -1,0 +1,43 @@
+SVM STABILITY ANALYSIS REPORT
+Generated: 2025-07-14 22:51:14
+Outcome: Y2
+Iterations: 20
+Models: Linear, RBF, Polynomial, Nu-SVM
+
+BEST MODEL: SVM_Poly
+Performance: 0.6743 ± 0.0147
+Support Vectors: ~283
+
+TOP 10 STABLE BIOMARKERS:
+ 1. FRMD4A          (100.0%)
+ 2. CD55            (100.0%)
+ 3. GABARAPL1       (100.0%)
+ 4. MARCHF3         (100.0%)
+ 5. CBLL2           (100.0%)
+ 6. MOCOS           (100.0%)
+ 7. TGIF1           (100.0%)
+ 8. LGALS7B         (100.0%)
+ 9. RNU4ATAC18P     (100.0%)
+10. DCTPP1          (100.0%)
+
+STABILITY METRICS:
+High stability genes (≥80%): 242
+Overall performance: Moderate
+
+TOP LINEAR SVM COEFFICIENT FEATURES:
+ 1. RNU4ATAC18P     | Stability: 100.0% | |coef|: 0.0242
+ 2. LGALS7B         | Stability: 100.0% | |coef|: 0.0234
+ 3. SND1-DT         | Stability: 100.0% | |coef|: 0.0160
+ 4. TBC1D28         | Stability: 100.0% | |coef|: 0.0103
+ 5. FRMD4A          | Stability: 100.0% | |coef|: 0.0096
+ 6. SEMA6A-AS1      | Stability: 100.0% | |coef|: 0.0095
+ 7. MARCHF3         | Stability: 100.0% | |coef|: 0.0091
+ 8. CBLL2           | Stability: 100.0% | |coef|: 0.0086
+ 9. HPSE            | Stability: 100.0% | |coef|: 0.0068
+10. SDCBP2          | Stability: 100.0% | |coef|: 0.0063
+
+KERNEL PERFORMANCE RANKING:
+1. SVM_Poly: 0.6525
+2. SVM_Linear: 0.5607
+3. Nu_SVM: 0.5404
+4. SVM_RBF: 0.4863

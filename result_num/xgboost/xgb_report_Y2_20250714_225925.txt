@@ -1,0 +1,44 @@
+XGBOOST STABILITY ANALYSIS REPORT
+Generated: 2025-07-14 22:59:26
+Outcome: Y2
+Iterations: 20
+Models: Default, Regularized, Deep
+
+BEST MODEL: XGB_Deep
+Performance: 0.6138 ± 0.0444
+Best Iteration: 11.0
+Training Loss: 0.6583
+Validation Loss: nan
+
+TOP 10 STABLE BIOMARKERS:
+ 1. LINC01565       (100.0%)
+ 2. HROB            (100.0%)
+ 3. GABARAPL1       (100.0%)
+ 4. TRGJP2          ( 95.0%)
+ 5. DUSP1           ( 95.0%)
+ 6. JPT1            ( 95.0%)
+ 7. SNRNP25         ( 95.0%)
+ 8. LINC00261       ( 95.0%)
+ 9. SND1-DT         ( 95.0%)
+10. ARG2            ( 95.0%)
+
+STABILITY METRICS:
+High stability genes (≥80%): 59
+Overall performance: Poor
+
+TOP IMPORTANT FEATURES:
+ 1. PLXNA4          | Stability:  90.0% | Importance: 0.0063
+ 2. LINC00261       | Stability:  95.0% | Importance: 0.0061
+ 3. MARCHF3         | Stability:  90.0% | Importance: 0.0055
+ 4. PLP2            | Stability:  85.0% | Importance: 0.0039
+ 5. RNU4ATAC18P     | Stability:  90.0% | Importance: 0.0039
+ 6. ARG2            | Stability:  95.0% | Importance: 0.0029
+ 7. HROB            | Stability: 100.0% | Importance: 0.0029
+ 8. JPT1            | Stability:  95.0% | Importance: 0.0027
+ 9. SND1-DT         | Stability:  95.0% | Importance: 0.0026
+10. LGALS7B         | Stability:  90.0% | Importance: 0.0024
+
+MODEL PERFORMANCE RANKING:
+1. XGB_Deep: 0.5414
+2. XGB_Default: 0.4713
+3. XGB_Regularized: 0.4593

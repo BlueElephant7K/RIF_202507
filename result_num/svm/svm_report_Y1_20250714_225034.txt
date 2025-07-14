@@ -1,0 +1,43 @@
+SVM STABILITY ANALYSIS REPORT
+Generated: 2025-07-14 22:50:35
+Outcome: Y1
+Iterations: 20
+Models: Linear, RBF, Polynomial, Nu-SVM
+
+BEST MODEL: SVM_Poly
+Performance: 0.5822 ± 0.0364
+Support Vectors: ~291
+
+TOP 10 STABLE BIOMARKERS:
+ 1. PLSCR1          (100.0%)
+ 2. TOB1            (100.0%)
+ 3. USP17L7         (100.0%)
+ 4. MAP1LC3B        (100.0%)
+ 5. HTATIP2         (100.0%)
+ 6. TAGLN2          (100.0%)
+ 7. CAPZA3          (100.0%)
+ 8. LINC01565       (100.0%)
+ 9. ABCA7           (100.0%)
+10. FN3KRP          (100.0%)
+
+STABILITY METRICS:
+High stability genes (≥80%): 284
+Overall performance: Poor
+
+TOP LINEAR SVM COEFFICIENT FEATURES:
+ 1. TMEM210         | Stability: 100.0% | |coef|: 0.0191
+ 2. USP17L7         | Stability: 100.0% | |coef|: 0.0189
+ 3. CAPZA3          | Stability: 100.0% | |coef|: 0.0181
+ 4. SLC17A4         | Stability: 100.0% | |coef|: 0.0164
+ 5. ABCA7           | Stability: 100.0% | |coef|: 0.0131
+ 6. FAM210A         | Stability: 100.0% | |coef|: 0.0092
+ 7. LINC01565       | Stability: 100.0% | |coef|: 0.0091
+ 8. FN3KRP          | Stability: 100.0% | |coef|: 0.0079
+ 9. LRP2            | Stability: 100.0% | |coef|: 0.0072
+10. PLXNA4          | Stability: 100.0% | |coef|: 0.0070
+
+KERNEL PERFORMANCE RANKING:
+1. SVM_Poly: 0.5196
+2. Nu_SVM: 0.5172
+3. SVM_RBF: 0.5056
+4. SVM_Linear: 0.4951

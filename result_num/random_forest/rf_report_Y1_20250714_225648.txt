@@ -1,0 +1,43 @@
+RANDOM FOREST STABILITY ANALYSIS REPORT
+Generated: 2025-07-14 22:56:49
+Outcome: Y1
+Iterations: 20
+Models: RandomForest, ExtraTrees, RF_Deeper
+
+BEST MODEL: ExtraTrees
+Performance: 0.5967 ± 0.0399
+OOB Score: 0.7302
+Average Tree Depth: 10.0
+
+TOP 10 STABLE BIOMARKERS:
+ 1. PLSCR1          (100.0%)
+ 2. TOB1            (100.0%)
+ 3. USP17L7         (100.0%)
+ 4. MAP1LC3B        (100.0%)
+ 5. HTATIP2         (100.0%)
+ 6. TAGLN2          (100.0%)
+ 7. CAPZA3          (100.0%)
+ 8. LINC01565       (100.0%)
+ 9. ABCA7           (100.0%)
+10. FN3KRP          (100.0%)
+
+STABILITY METRICS:
+High stability genes (≥80%): 284
+Overall performance: Poor
+
+TOP IMPORTANT FEATURES:
+ 1. TMEM210         | Stability: 100.0% | Importance: 0.0021
+ 2. LINC01565       | Stability: 100.0% | Importance: 0.0020
+ 3. MCM4            | Stability: 100.0% | Importance: 0.0018
+ 4. ABCA7           | Stability: 100.0% | Importance: 0.0018
+ 5. PLXNA4          | Stability: 100.0% | Importance: 0.0017
+ 6. TOB1            | Stability: 100.0% | Importance: 0.0015
+ 7. MOCOS           | Stability: 100.0% | Importance: 0.0015
+ 8. ARG2            | Stability: 100.0% | Importance: 0.0015
+ 9. MACIR           | Stability: 100.0% | Importance: 0.0013
+10. FAM210A         | Stability: 100.0% | Importance: 0.0013
+
+MODEL PERFORMANCE RANKING:
+1. ExtraTrees: 0.5299
+2. RF_Deeper: 0.5098
+3. RandomForest: 0.4950
