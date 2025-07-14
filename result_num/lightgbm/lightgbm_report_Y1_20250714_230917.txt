@@ -1,0 +1,49 @@
+LIGHTGBM STABILITY ANALYSIS REPORT
+Generated: 2025-07-14 23:09:18
+Outcome: Y1
+Iterations: 20
+Models: Default, Fast, Accurate
+
+BEST MODEL: LightGBM_Accurate
+Performance: 0.5664 ± 0.0734
+Best Iteration: 10.6
+Training Time: 0.106s
+Prediction Time: 0.0017s
+
+TOP 10 STABLE BIOMARKERS:
+ 1. LINC01565       (100.0%)
+ 2. TMEM210         (100.0%)
+ 3. ARRDC3          (100.0%)
+ 4. ZNF284          (100.0%)
+ 5. GABARAPL1       (100.0%)
+ 6. MOCOS           (100.0%)
+ 7. SNRNP25         (100.0%)
+ 8. ZNF165          ( 95.0%)
+ 9. DUSP1           ( 95.0%)
+10. CTNNA1          ( 95.0%)
+
+STABILITY METRICS:
+High stability genes (≥80%): 101
+Overall performance: Poor
+
+TOP IMPORTANT FEATURES:
+ 1. LINC02340       | Stability:  95.0% | Importance: 0.5965
+ 2. TMEM210         | Stability: 100.0% | Importance: 0.2500
+ 3. SCCPDH          | Stability:  90.0% | Importance: 0.2407
+ 4. ATF3            | Stability:  95.0% | Importance: 0.2105
+ 5. LINC01565       | Stability: 100.0% | Importance: 0.1833
+ 6. ZNF284          | Stability: 100.0% | Importance: 0.1667
+ 7. GABARAPL1       | Stability: 100.0% | Importance: 0.1000
+ 8. ARRDC3          | Stability: 100.0% | Importance: 0.0667
+ 9. FAM210A         | Stability:  90.0% | Importance: 0.0556
+10. RAB33B          | Stability:  90.0% | Importance: 0.0556
+
+MODEL PERFORMANCE RANKING:
+1. LightGBM_Accurate: 0.4369
+2. LightGBM_Default: 0.4303
+3. LightGBM_Fast: 0.4279
+
+SPEED ANALYSIS:
+LightGBM_Accurate: Train=0.106s, Pred=0.0017s
+LightGBM_Default: Train=0.075s, Pred=0.0017s
+LightGBM_Fast: Train=0.050s, Pred=0.0017s
