@@ -1,0 +1,43 @@
+KNN STABILITY ANALYSIS REPORT
+Generated: 2025-07-14 23:18:23
+Outcome: Y1
+Iterations: 20
+Models: Euclidean, Manhattan, Weighted, Adaptive, Cosine
+
+BEST MODEL: KNN_cosine
+Performance: 0.5684 ± 0.0361
+K Neighbors: 5
+Distance Metric: cosine
+Prediction Confidence: 0.7615
+
+TOP 10 STABLE BIOMARKERS:
+ 1. PLSCR1          (100.0%)
+ 2. TOB1            (100.0%)
+ 3. USP17L7         (100.0%)
+ 4. MAP1LC3B        (100.0%)
+ 5. HTATIP2         (100.0%)
+ 6. TAGLN2          (100.0%)
+ 7. CAPZA3          (100.0%)
+ 8. LINC01565       (100.0%)
+ 9. ABCA7           (100.0%)
+10. FN3KRP          (100.0%)
+
+STABILITY METRICS:
+High stability genes (≥80%): 284
+Overall performance: Poor
+
+DISTANCE METRIC PERFORMANCE:
+cosine      : 0.5684 ± 0.0361
+euclidean   : 0.5678 ± 0.0437
+manhattan   : 0.5434 ± 0.0352
+
+K VALUE PERFORMANCE:
+K= 5: 0.5572 ± 0.0372
+K=11: 0.5862 ± 0.0504
+
+MODEL PERFORMANCE RANKING:
+1. KNN_cosine: 0.5049
+2. KNN_adaptive: 0.5002
+3. KNN_k5_euclidean: 0.4908
+4. KNN_k5_weighted: 0.4908
+5. KNN_k5_manhattan: 0.4786

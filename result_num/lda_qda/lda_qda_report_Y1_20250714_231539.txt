@@ -1,0 +1,31 @@
+LDA/QDA STABILITY ANALYSIS REPORT
+Generated: 2025-07-14 23:15:40
+Outcome: Y1
+Iterations: 20
+Models: LDA, LDA_No_Shrinkage, QDA, QDA_Regularized
+
+BEST MODEL: LDA
+Performance: 0.5724 ± 0.0327
+Components Used: nan
+
+TOP 10 STABLE BIOMARKERS:
+ 1. PLSCR1          (100.0%)
+ 2. TOB1            (100.0%)
+ 3. USP17L7         (100.0%)
+ 4. MAP1LC3B        (100.0%)
+ 5. HTATIP2         (100.0%)
+ 6. TAGLN2          (100.0%)
+ 7. CAPZA3          (100.0%)
+ 8. LINC01565       (100.0%)
+ 9. ABCA7           (100.0%)
+10. FN3KRP          (100.0%)
+
+STABILITY METRICS:
+High stability genes (≥80%): 284
+Overall performance: Poor
+
+MODEL PERFORMANCE RANKING:
+1. LDA: 0.5153
+2. LDA_No_Shrinkage: 0.3838
+3. QDA: 0.3708
+4. QDA_Regularized: 0.3612

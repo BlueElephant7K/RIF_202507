@@ -1,0 +1,4 @@
+distance_metric,mean,std
+cosine,0.5684,0.0361
+euclidean,0.5678,0.0437
+manhattan,0.5434,0.0352

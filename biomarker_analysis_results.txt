@@ -1,0 +1,87 @@
+================================================================================
+COMPREHENSIVE BIOMARKER FREQUENCY ANALYSIS
+================================================================================
+
+1. TOP 10 MOST FREQUENTLY SELECTED GENES ACROSS ALL MODELS
+------------------------------------------------------------
+Rank  Gene                Models    Model Names
+------------------------------------------------------------
+1     TOB1                9         random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+2     MAP1LC3B            9         random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+3     HTATIP2             9         random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+4     LINC01565           9         random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+5     ABCA7               9         random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+6     FN3KRP              9         random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+7     FAM210A             9         random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+8     ALDH2               9         random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+9     TMEM210             9         random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+10    RTN3                9         random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+
+2. GENES APPEARING IN ALL 9 MODELS
+------------------------------------------------------------
+Total: 45 genes
+
+TOB1           MAP1LC3B       HTATIP2        LINC01565      ABCA7          
+FN3KRP         FAM210A        ALDH2          TMEM210        RTN3           
+TMBIM1         RIOK3          ARG2           RMND5A         LIMK2          
+DBR1           MCM4           MOCOS          HSPB8          GABARAPL1      
+ZNF165         EIF1           SDCBP2         DUSP1          RNU4-49P       
+TTC39C         CHP1           JPT1           SCCPDH         MAOA           
+WLS            SNRNP25        HROB           ARL6IP1        RAB33B         
+ZNF284         ARRDC3         CAMK2D         CTNNA1         NPHP4          
+LRRC52         ATF3           ADSS2          LINC02340      ATL3           
+
+3. DETAILED GENE FREQUENCY TABLE
+------------------------------------------------------------
+Gene                Frequency   Models
+------------------------------------------------------------
+TOB1                9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+MAP1LC3B            9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+HTATIP2             9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+LINC01565           9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+ABCA7               9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+FN3KRP              9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+FAM210A             9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+ALDH2               9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+TMEM210             9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+RTN3                9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+TMBIM1              9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+RIOK3               9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+ARG2                9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+RMND5A              9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+LIMK2               9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+DBR1                9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+MCM4                9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+MOCOS               9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+HSPB8               9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+GABARAPL1           9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+ZNF165              9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+EIF1                9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+SDCBP2              9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+DUSP1               9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+RNU4-49P            9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+TTC39C              9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+CHP1                9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+JPT1                9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+SCCPDH              9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+MAOA                9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+WLS                 9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+SNRNP25             9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+HROB                9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+ARL6IP1             9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+RAB33B              9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+ZNF284              9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+ARRDC3              9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+CAMK2D              9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+CTNNA1              9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+NPHP4               9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+LRRC52              9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+ATF3                9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+ADSS2               9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+LINC02340           9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+ATL3                9           random_forest, xgboost, lightgbm, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+PLSCR1              7           random_forest, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+USP17L7             7           random_forest, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+TAGLN2              7           random_forest, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+CAPZA3              7           random_forest, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda
+PCCA                7           random_forest, svm, logistic_regression, linear_regression, naive_bayes, knn, lda_qda

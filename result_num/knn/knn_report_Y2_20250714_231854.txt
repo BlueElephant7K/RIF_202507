@@ -1,0 +1,43 @@
+KNN STABILITY ANALYSIS REPORT
+Generated: 2025-07-14 23:18:55
+Outcome: Y2
+Iterations: 20
+Models: Euclidean, Manhattan, Weighted, Adaptive, Cosine
+
+BEST MODEL: KNN_adaptive
+Performance: 0.6822 ± 0.0048
+K Neighbors: 11
+Distance Metric: euclidean
+Prediction Confidence: 0.9118
+
+TOP 10 STABLE BIOMARKERS:
+ 1. FRMD4A          (100.0%)
+ 2. CD55            (100.0%)
+ 3. GABARAPL1       (100.0%)
+ 4. MARCHF3         (100.0%)
+ 5. CBLL2           (100.0%)
+ 6. MOCOS           (100.0%)
+ 7. TGIF1           (100.0%)
+ 8. LGALS7B         (100.0%)
+ 9. RNU4ATAC18P     (100.0%)
+10. DCTPP1          (100.0%)
+
+STABILITY METRICS:
+High stability genes (≥80%): 242
+Overall performance: Moderate
+
+DISTANCE METRIC PERFORMANCE:
+cosine      : 0.6421 ± 0.0417
+euclidean   : 0.6805 ± 0.0103
+manhattan   : 0.6711 ± 0.0226
+
+K VALUE PERFORMANCE:
+K= 5: 0.6681 ± 0.0292
+K=11: 0.6822 ± 0.0048
+
+MODEL PERFORMANCE RANKING:
+1. KNN_adaptive: 0.6752
+2. KNN_k5_euclidean: 0.6615
+3. KNN_k5_weighted: 0.6615
+4. KNN_k5_manhattan: 0.6374
+5. KNN_cosine: 0.5771
